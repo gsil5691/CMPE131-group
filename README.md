@@ -12,7 +12,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/gsil5691/CMPE131-group">
-    <img src="Image/readme.JPG" alt="Logo" width="80" height="80">
+    <img src="Image/readme.JPG" alt="Logo" width = 100% height="80">
   </a>
 
 <h3 align="center">Superior Vitamin Shop</h3>
