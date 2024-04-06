@@ -40,7 +40,32 @@ p {
 }
 
 .section-m1 {
-    margin: 40px 0;
+    margin: 40px 0px;
+}
+
+button.normal{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: black;
+    background-color: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+
+button.white{
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 18px;
+    color: black;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid black;
+    outline: none;
+    transition: 0.2s;
 }
 
 /* Header Start */
@@ -51,7 +76,8 @@ p {
     justify-content: space-between;
     padding: 20px 80px;
     background: whitesmoke;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06)
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    list-style: none;
 }
 
 #navbar{
@@ -113,6 +139,8 @@ p {
     width: 180px;
     text-align: center;
     padding: 20px 10px;
+    cursor: pointer;
+    transition: 0.02s;
 }
 
 #trending .trending-box:hover{
@@ -142,7 +170,7 @@ p {
     min-width: 250px;
     padding: 10px 12px;
     cursor: pointer;
-    
+    transition: 0.02s;
 }
 
 #sale .container:hover{
@@ -164,5 +192,114 @@ p {
     background-size: cover;
     background-position: center;
 }
+
+#newsletter{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url(Image/newsletter.JPG);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 25vh; 
+}
+
+#newsletter h4{
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+}
+
+#newsletter p{
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+}
+
+#newsletter p span{
+    color: #ffbd27;
+}
+
+#newsletter .form{
+    display: flex;
+    width: 40%;
+}
+
+#newsletter input{
+    height: 3.125rem;
+    padding: 0 1.25em;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+}
+
+#newsletter button{
+    background-color:bisque;
+    color: white;
+    white-space: nowrap;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+footer .test{
+    margin-bottom: 30px;
+}
+
+footer h4{
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+footer p{
+    font-size: 12px;
+    margin: 0 0 8px 0;
+}
+
+footer a{
+    font-size: 13px;
+    text-decoration: none;
+    color: #222;
+    margin-bottom: 10px;;
+}
+
+footer .copyright{
+    width: 100%;
+    text-align: center;
+}
+
+/* About Us Page */
+
+#about-us{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* Delivery Information Page */
+
+/* Privacy Policy page */
+
+/* Terms and Conditions Page */
+
+/* Contact Us Page */
+
+/* Help Page */
+
+/* View Cart Page */
+
+/* Sign In Page */
 
 /* Shop Page */
