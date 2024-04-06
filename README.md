@@ -20,14 +20,14 @@
   <p align="center">
     Project_Description
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/gsil5691/CMPE131-group"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://github.com/gsil5691/CMPE131-group">View Demo</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    <a href="https://github.com/gsil5691/CMPE131-group/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    <a href="https://github.com/gsil5691/CMPE131-group/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
 
@@ -71,7 +71,7 @@ Superior Vitamin Shop is a specialized retailer catering to fitness enthusiasts,
 
 ### Built With
 
-* [![html][html.com][html-url]
+* [![html][html.com][html-url]]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -88,7 +88,7 @@ To get a local copy up and running follow these simple example steps.
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/gsil5691/CMPE131-group.git
    ```
 3. Install NPM packages
    ```sh
@@ -122,7 +122,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 - [ ] Feature 3
     - [ ] Nested Feature
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/github_username/CMPE131-group/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -147,7 +147,7 @@ Don't forget to give the project a star! Thanks again!
 
 <!-- CONTACT -->
 ## Contact
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/gsil5691/CMPE131-group](https://github.com/gsil5691/CMPE131-group)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -155,18 +155,18 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo_name/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo_name/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo_name/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/gsil5691/CMPE131-group.svg?style=for-the-badge
+[contributors-url]: https://github.com/gsil5691/CMPE131-group/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/gsil5691/CMPE131-group.svg?style=for-the-badge
+[forks-url]: https://github.com/gsil5691/CMPE131-group/network/members
+[stars-shield]: https://img.shields.io/github/stars/gsil5691/CMPE131-group.svg?style=for-the-badge
+[stars-url]: https://github.com/gsil5691/CMPE131-group/stargazers
+[issues-shield]: https://img.shields.io/github/issues/gsil5691/CMPE131-group.svg?style=for-the-badge
+[issues-url]: https://github.com/gsil5691/CMPE131-group/issues
+[license-shield]: https://img.shields.io/github/license/gsil5691/CMPE131-group.svg?style=for-the-badge
+[license-url]: https://github.com/gsil5691/CMPE131-group/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
+[linkedin-url]: https://linkedin.com/in/gsil5691
 [product-screenshot]: images/screenshot.png
 [html.com]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [html-url]: https://html.com/
