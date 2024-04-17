@@ -85,19 +85,11 @@ To get a local copy up and running follow these simple example steps.
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
    git clone https://github.com/gsil5691/CMPE131-group.git
    ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+2. Open index.html
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -168,5 +160,5 @@ Project Link: [https://github.com/gsil5691/CMPE131-group](https://github.com/gsi
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/gsil5691
 [product-screenshot]: images/screenshot.png
-[html.com]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[html.com]: https://img.shields.io/badge/html-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [html-url]: https://html.com/
