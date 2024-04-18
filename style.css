@@ -73,13 +73,25 @@ button.white{
     transition: 0.2s;
 }
 
+button.cokewhite{
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 18px;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid white;
+    outline: none;
+    transition: 0.2s;
+}
+
 /* Header Start */
 
 #header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 80px;
+    padding: 20px 87px;
     background: whitesmoke;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
     list-style: none;
@@ -114,6 +126,7 @@ button.white{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    color: white;
 }
 
 #hero .hero-box{
@@ -121,7 +134,7 @@ button.white{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background-image: url("Image/frontpage1.jpg");
+    background-image: url("Image/Vitamin_Hero.png ");
     width: 650px;
     height: 50vh;
     background-size: cover;
@@ -130,7 +143,7 @@ button.white{
 }
 
 #hero .hero-box2{
-    background-image: url("Image/frontpage3.jpg");
+    background-image: url("Image/AlaniNu_Hero.jpg");
 }
 
 #trending{
@@ -138,6 +151,12 @@ button.white{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+#trending-title{
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #trending .trending-box{
