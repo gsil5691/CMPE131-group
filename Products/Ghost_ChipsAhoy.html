@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+        <title>Superior Vitamin Shop</title>
+        <link rel = "stylesheet" href = "../style.css">
+    </head>
+    
+    <body>
+        <section id = "header">
+            <li><a href = "../index.html">
+                <img src = "../Image/test.jpg" class = "test" alt = "" height = "50" width = "50">
+            </a></li>
+    
+            <div>
+                <ul id = "navbar">
+                    <li><a href = "../index.html">Home</a></li>
+                    <li><a href = "../Frontend/vitaminsAndSupplements.html">Vitamins & Supplements</a></li>
+                    <li><a href = "../Frontend/proteinAndFitness.html">Protein & Fitness</a></li>
+                    <li><a href = "../Frontend/digestionAndGut.html">Digestion & Gut Health</a></li>
+                    <li><a href = "../Frontend/foodAndDrinks.html">Food & Drinks</a></li>
+                    <li><a href = "../Frontend/viewCart.html"> <img src = "../Image/cart.png" height = "50" wdith = "50"> </a></li>
+                </ul>
+            </div>
+        </section>
+
+        <!--BANNER-->
+        <section id = "products-banner" class = "section-m1">
+            <p>Free Shipping for Orders Over 1000$</p>
+        </section>
+
+        <!--ENTER BODY AND INFORMATION-->
+        <section>
+            <div class = "container flex">
+                <div class = "left">
+                    <div class = "main_image">
+                        <img src = "../Image/GHOST_Whey_Protein_Chips_Ahoy_Front_1.jpg" alt = " " class = "slide" height = 500px width = 500px>
+                    </div>
+                    <div class = "option flex">
+                        <img src = "../Image/GHOST_Whey_Protein_Chips_Ahoy_Front_1.jpg" onclick="img('../Image/GHOST_Whey_Protein_Chips_Ahoy_Front_1.jpg')">
+                        <img src = "../Image/GHOST_Whey_Protein_Chips_Ahoy_Back_2.jpg" onclick="img('../Image/GHOST_Whey_Protein_Chips_Ahoy_Back_2.jpg')">
+                        <img src = "../Image/Ghost Whey Protein Powder Chips Ahoy_3.jpg" onclick="img('../Image/Ghost Whey Protein Powder Chips Ahoy_3.jpg')">
+                    </div>
+                </div>
+
+                <div class = "right">
+                <h4>Ghost Whey Protein - Chips Ahoy</h4>
+                <h4>$44.99</h4> <p>($1.73 / Serving)</p>
+                <p>GHOST WHEY PROTEIN - CHIPS AHOY </p>
+                <p>Ghost® Whey Protein was conceived to feed savagery around the clock*, and can be enjoyed during breakfast, post workout, throughout the day or before bed. Ghost® Whey is versatile and can be used in smoothies, oats, protein ice cream, pancakes and baked goods. This formula provides 25g protein with 4g sugar and 160 calories per serving.</p>
+                <p>With 90% whey protein isolate, 80% whey protein concentrate & hydrolyzed whey protein isolate</p>   
+                <p>Manufactured in the U.S.A. in a GMP compliant facility</p>  
+                <p>No amino spiking</p>
+                
+                    <button class = "white">Add to Cart</button>
+                </div>
+                
+            </div>
+        </section>
+
+        <script>
+            function img(anything){
+                document.querySelector('.slide').src = anything;
+            }
+            function change(change){
+                const line = document.querySelector('.home');
+                line.style.background = change;
+            }
+        </script>
+
+        <footer class = "section-p1">
+            <div class = "col">
+                <img src = "../CMPE131-group-main/Image/test.jpg" class = "test" alt = "" height = "100" width = "100">
+                <h4>Contact</h4>
+                <p><strong>Address:</strong>1 Washington Sq, San Jose, CA 95192</p>
+                <p><strong>Phone:</strong>(408) 924-1000</p>
+                <p><strong>Hours:</strong> 6:00 AM - 12:00 AM</p>
+            </div>
+    
+            <div class = "col">
+                <h4>About Us</h4>
+                <a href = "../Frontend/aboutUs.html">About Us</a>
+                <a href = "../Frontend/deliveryInformation.html">Delivery Information</a>
+                <a href = "../Frontend/privacyPolicy.html">Privacy Policy</a>
+                <a href = "../Frontend/tnc.html">Terms and Conditions</a>
+                <a href = "../Frontend/contactUs.html">Contact Us</a>
+            </div>
+    
+            <div class = "col">
+                <h4>My Account</h4>
+                <a href = "../Frontend/signIn.html">Sign In</a>
+                <a href = "../Frontend/viewCart.html">View Cart</a>
+                <a href = "../Frontend/help.html">Help</a>
+            </div>
+    
+            <div class = "copyright">
+                <p>2024, Superior Vitamin Shop</p>
+            </div>
+         </footer>
+    
+    </body>
+
+</html>

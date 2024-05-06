@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+        <title>Superior Vitamin Shop</title>
+        <link rel = "stylesheet" href = "../style.css">
+    </head>
+    
+    <body>
+        <section id = "header">
+            <li><a href = "../index.html">
+                <img src = "../Image/test.jpg" class = "test" alt = "" height = "50" width = "50">
+            </a></li>
+    
+            <div>
+                <ul id = "navbar">
+                    <li><a href = "../index.html">Home</a></li>
+                    <li><a href = "../Frontend/vitaminsAndSupplements.html">Vitamins & Supplements</a></li>
+                    <li><a href = "../Frontend/proteinAndFitness.html">Protein & Fitness</a></li>
+                    <li><a href = "../Frontend/digestionAndGut.html">Digestion & Gut Health</a></li>
+                    <li><a href = "../Frontend/foodAndDrinks.html">Food & Drinks</a></li>
+                    <li><a href = "../Frontend/viewCart.html"> <img src = "../Image/cart.png" height = "50" wdith = "50"> </a></li>
+                </ul>
+            </div>
+        </section>
+
+        <!--BANNER-->
+        <section id = "products-banner" class = "section-m1">
+            <p>Free Shipping for Orders Over 1000$</p>
+        </section>
+
+        <!--ENTER BODY AND INFORMATION-->
+        <section>
+            <div class = "container flex">
+                <div class = "left">
+                    <div class = "main_image">
+                        <img src = "../Image/GNC_MegaMen_Performance_&_Vitality_Vitapak_Front.jpg" alt = " " class = "slide" height = 500px width = 500px>
+                    </div>
+                    <div class = "option flex">
+                        <img src = "../Image/GNC_MegaMen_Performance_&_Vitality_Vitapak_Front.jpg" onclick="img('../Image/GNC_MegaMen_Performance_&_Vitality_Vitapak_Front.jpg')">
+                        <img src = "../Image/GNC_MegaMen_Performance_&_Vitality_Vitapak_2.jpg" onclick="img('../Image/GNC_MegaMen_Performance_&_Vitality_Vitapak_2.jpg')">
+                        <img src = "../Image/GNC_MegaMen_Performance_&_Vitality_Vitapak_3.jpg" onclick="img('../Image/GNC_MegaMen_Performance_&_Vitality_Vitapak_3.jpg')">
+                        <img src = "../Image/GNC_MegaMen_Performance_&_Vitality_Vitapak_4.jpg" onclick="img('../Image/GNC_MegaMen_Performance_&_Vitality_Vitapak_4.jpg')">
+                    </div>
+                </div>
+
+                <div class = "right">
+                <h4>GNC Mega Men -Peformance & Vitality Vitapak Program</h4>
+                <h4>$59.99</h4> <p>(30 Servings)</p>
+                <p>GNC - PERFORMANCE & VITALITY VITAPAK </p>
+                <p>READY FOR A WORKOUT—OR A NIGHT IN: GNC Mega Men® Performance & Vitality Vitapak® Program is designed to provide daily support for men’s overall health and wellness, sexual health, joint health, prostate, and more*.</p>
+                <p>FIGHT CELL DAMAGE AND SUPPORT IMMUNE HEALTH: GNC Mega Men’s powerful blend of antioxidants helps protect you from harmful free radicals produced by exercising and everyday stress—and it’s part of a vitamin and mineral blend that’s clinically shown to help you feel better^*.</p>   
+                <p>BOOST LEVELS OF VITAMINS FOR ENERGY PRODUCTION: Each daily GNC Mega Men® multivitamin is also packed with B vitamins and includes magnesium to support energy production*.</p>  
+                <p>SUPPORT A STRONG PROSTATE AND SEXUAL HEALTH: Give your prostate some extra help with this Vitapak® Program’s lycopene and saw palmetto*. Every pack also has L-arginine, which plays a key role in sexual health*.</p>
+                <p>GIVE YOUR HEART AND CIRCULATION SOME LOVE: Performance & Vitality Vitapak® Programs support circulation with a science-backed combination of L-arginine, L-citrulline, and clinically studied resVida® resveratrol—and every pack contains an omega-rich fish oil to support heart and joint health♦*.</p>   
+                <button class = "white">Add to Cart</button>
+                </div>
+                
+            </div>
+        </section>
+
+        <script>
+            function img(anything){
+                document.querySelector('.slide').src = anything;
+            }
+            function change(change){
+                const line = document.querySelector('.home');
+                line.style.background = change;
+            }
+        </script>
+
+        <footer class = "section-p1">
+            <div class = "col">
+                <img src = "../CMPE131-group-main/Image/test.jpg" class = "test" alt = "" height = "100" width = "100">
+                <h4>Contact</h4>
+                <p><strong>Address:</strong>1 Washington Sq, San Jose, CA 95192</p>
+                <p><strong>Phone:</strong>(408) 924-1000</p>
+                <p><strong>Hours:</strong> 6:00 AM - 12:00 AM</p>
+            </div>
+    
+            <div class = "col">
+                <h4>About Us</h4>
+                <a href = "../Frontend/aboutUs.html">About Us</a>
+                <a href = "../Frontend/deliveryInformation.html">Delivery Information</a>
+                <a href = "../Frontend/privacyPolicy.html">Privacy Policy</a>
+                <a href = "../Frontend/tnc.html">Terms and Conditions</a>
+                <a href = "../Frontend/contactUs.html">Contact Us</a>
+            </div>
+    
+            <div class = "col">
+                <h4>My Account</h4>
+                <a href = "../Frontend/signIn.html">Sign In</a>
+                <a href = "../Frontend/viewCart.html">View Cart</a>
+                <a href = "../Frontend/help.html">Help</a>
+            </div>
+    
+            <div class = "copyright">
+                <p>2024, Superior Vitamin Shop</p>
+            </div>
+         </footer>
+    
+    </body>
+
+</html>
