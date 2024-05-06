@@ -13,7 +13,7 @@ body {
 
 .background {
  width: 430px;
- height: 520px;
+ height: 400px;
  position: absolute;
  transform: translate(-50%, -50%);
  left: 50%;
@@ -32,7 +32,7 @@ body {
  background: linear-gradient(#88a18c,
    #cfdee9);
  left: -80px;
- top: -120px;
+ top: -100px;
 }
 
 .shape:last-child {
@@ -44,19 +44,20 @@ body {
 }
 
 form {
- height: 580px;
- width: 400px;
- background-color: rgba(10, 4, 68, 0.13);
- position: absolute;
- transform: translate(-50%, -50%);
- top: 50%;
- left: 50%;
- border-radius: 10px;
- backdrop-filter: blur(10px);
- border: 2px solid rgba(255, 255, 255, 0.1);
- box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
- padding: 50px 35px;
+  height: 450px; /* Increased height */
+  width: 400px;
+  background-color: rgba(10, 4, 68, 0.13);
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+  padding: 50px 35px; /* Adjust this value if needed */
 }
+
 
 form * {
  font-family: 'Poppins', sans-serif;
@@ -70,7 +71,7 @@ form h3 {
  font-size: 50px;
  font-weight: 600;
  line-height: 50px;
- text-align: top;
+ text-align: start;
 }
 
 label {
@@ -108,42 +109,47 @@ button {
  cursor: pointer;
 }
 
-.social {
- margin-top: 30px;
- display: flex;
- align-items: center;
- justify-content: center;
-}
-
-.social div {
- background: red;
- width: 150px;
- border-radius: 3px;
- padding: 5px 10px 10px 5px;
- background-color: rgba(255, 255, 255, 0.27);
- color: #eaf0fb;
- text-align: center;
- justify-content: center;
- align-items: center;
-}
-
-.social div:hover {
- background-color: rgba(255, 255, 255, 0.47);
- cursor: pointer;
-}
-.social div:active{
-  transform: scale(0.95);
-  transition: 0.5s;
-}
-
-.social .fb {
- margin-left: 25px;
-}
-
 .form{
  text-align: center;
 }
 
 button:active{
   transform: scale(0.95);
+}
+
+/* Header Start */
+/* HEADER START */
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 87px;
+  background: whitesmoke;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+  list-style: none;
+}
+
+#navbar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#navbar li{
+  list-style: none;
+  padding: 0 20px;
+
+}
+
+#navbar li a{
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color:black;
+  transition: 0.3s ease;
+}
+
+#navbar li a:hover{
+  color:deeppink;
 }

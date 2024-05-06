@@ -85,11 +85,8 @@ button.cokewhite{
     transition: 0.2s;
 }
 
-<<<<<<< HEAD
 /* Header Start */
-=======
 /* HEADER START */
->>>>>>> 938f2d53fef4db0389261a2a421a4bee25e65e6c
 
 #header {
     display: flex;
@@ -125,11 +122,8 @@ button.cokewhite{
     color:deeppink;
 }
 
-<<<<<<< HEAD
 /* Home Page Start */
-=======
 /* HOME PAGE STATE */
->>>>>>> 938f2d53fef4db0389261a2a421a4bee25e65e6c
 #hero{
     display: flex;
     justify-content: space-between;
@@ -249,18 +243,15 @@ button.cokewhite{
 }
 
 #newsletter p span{
-<<<<<<< HEAD
     color: #ffbd27;
 }
 
 #newsletter .form{
-=======
     color: rgba(62, 116, 73, 0.8);
 }
 
 #newsletter .newsletter-form{
     background-color: white;
->>>>>>> 938f2d53fef4db0389261a2a421a4bee25e65e6c
     display: flex;
     width: 40%;
 }
@@ -276,11 +267,7 @@ button.cokewhite{
 }
 
 #newsletter button{
-<<<<<<< HEAD
-    background-color:bisque;
-=======
     background-color:rgba(62, 116, 73, 0.8);
->>>>>>> 938f2d53fef4db0389261a2a421a4bee25e65e6c
     color: white;
     white-space: nowrap;
 }
@@ -324,11 +311,8 @@ footer .copyright{
     text-align: center;
 }
 
-<<<<<<< HEAD
 /* About Us Page */
-=======
 /* ABOUT US PAGE */
->>>>>>> 938f2d53fef4db0389261a2a421a4bee25e65e6c
 
 #about-us{
     display: flex;
@@ -336,7 +320,6 @@ footer .copyright{
     align-items: flex-start;
 }
 
-<<<<<<< HEAD
 /* Delivery Information Page */
 
 /* Privacy Policy page */
@@ -352,7 +335,6 @@ footer .copyright{
 /* Sign In Page */
 
 /* Products Page */
-=======
 
 /* QUIZ PAGE */
 .quiz-container{
@@ -447,7 +429,6 @@ select {
 }
 
 /* PRODUCTS PAGE */
->>>>>>> 938f2d53fef4db0389261a2a421a4bee25e65e6c
 
 #products{
     display: flex;
@@ -499,11 +480,8 @@ select {
     background-position: center;
 }
 
-<<<<<<< HEAD
 /* Single Products Page */
-=======
 /* SINGLE PRODUCTS PAGE */
->>>>>>> 938f2d53fef4db0389261a2a421a4bee25e65e6c
 .container {
     padding: 0;
     margin: 0;
@@ -543,8 +521,6 @@ select {
 
 .right {
     padding: 50px 100px 50px 50px;
-<<<<<<< HEAD
-=======
 }
 
 /* SIGN IN / SIGN UP */
@@ -641,5 +617,4 @@ form p a{
 .btn-field button.disable{
     background: #eaeaea;
     color: #555;
->>>>>>> 938f2d53fef4db0389261a2a421a4bee25e65e6c
 }
