@@ -49,7 +49,7 @@ submit.addEventListener("click", function (event) {
             // Signed up
             const user = userCredential.user;
             alert("logging in...");
-            window.location.href = "dashboard.html";
+            window.location.href = "../Backend/dashboard.html";
             // ...
         })
         .catch((error) => {

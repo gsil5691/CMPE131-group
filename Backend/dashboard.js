@@ -20,7 +20,7 @@ onAuthStateChanged(auth, function (user) {
         document.getElementById("email").value = currentUser.email;
         document.getElementById("username").value = currentUser.displayName;
     } else {
-        window.location.href = "index.html";
+        window.location.href = "../Backend/signIn.html";
     }
 });
 
@@ -30,7 +30,7 @@ logout.addEventListener("click", function (event) {
     signOut(auth).then(
         function () {
             alert("Logging out...");
-            window.location.href = "index.html";
+            window.location.href = "../Backend/signIn.html";
         }
     ).catch(function () {
         alert("Error, can't logout...");
