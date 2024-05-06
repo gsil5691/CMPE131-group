@@ -61,8 +61,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+<<<<<<< HEAD
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
+=======
+>>>>>>> 938f2d53fef4db0389261a2a421a4bee25e65e6c
 Superior Vitamin Shop is a specialized retailer catering to fitness enthusiasts, offering a wide range of vitamins and supplements tailored specifically for workout needs. Our shop provides personalized recommendations through an interactive quiz designed to understand individual fitness goals, dietary habits, and health conditions. With a commitment to quality and efficacy, we stock premium products from reputable brands, ensuring customers have access to the best supplements to support their fitness journey. Whether you're looking to build muscle, improve endurance, or enhance recovery, Superior Vitamin Shop is your trusted partner in achieving optimal health and fitness. `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -80,6 +83,7 @@ Superior Vitamin Shop is a specialized retailer catering to fitness enthusiasts,
 <!-- GETTING STARTED -->
 ## Getting Started
 
+<<<<<<< HEAD
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
@@ -88,6 +92,15 @@ To get a local copy up and running follow these simple example steps.
 1. Clone the repo
    ```sh
    git clone https://github.com/gsil5691/CMPE131-group.git
+=======
+Accessing this website is as easy as downloading the zip and running the index.html within the folder.  Just like that you can experiment and test our prototype of Superior Vitamin Shop.
+
+### Installation
+
+1. Download the repo
+   ```sh
+   Download ZIP
+>>>>>>> 938f2d53fef4db0389261a2a421a4bee25e65e6c
    ```
 2. Open index.html
 
@@ -100,9 +113,14 @@ To get a local copy up and running follow these simple example steps.
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
+<<<<<<< HEAD
 Include Questionnaire, Login Function, Categories, Cart Function
 
 _For more examples, please refer to the [Documentation](https://example.com)_
+=======
+Include screenshots of the questionnaire, login function, categories, and cart function.
+
+>>>>>>> 938f2d53fef4db0389261a2a421a4bee25e65e6c
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -162,5 +180,8 @@ Project Link: [https://github.com/gsil5691/CMPE131-group](https://github.com/gsi
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/gsil5691
 [product-screenshot]: images/screenshot.png
+<<<<<<< HEAD
 [html.com]: https://img.shields.io/badge/html-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+=======
+>>>>>>> 938f2d53fef4db0389261a2a421a4bee25e65e6c
 [html-url]: https://html.com/

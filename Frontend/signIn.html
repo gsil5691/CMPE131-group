@@ -8,16 +8,13 @@
         <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
         <title>Superior Vitamin Shop</title>
         <link rel = "stylesheet" href = "../style.css">
+        <script src="https://kit.fontawesome.com/55a2dad393.js" crossorigin="anonymous"></script>
     </head>
     
     <body>
         <section id = "header">
             <li><a href = "../index.html">
-<<<<<<< HEAD
-                <img src = "../Image/test.jpg" class = "test" alt = "" height = "50" width = "50">
-=======
                 <img src = "../Image/logo.png" class = "test" alt = "" height = "75" width = "75">
->>>>>>> 938f2d53fef4db0389261a2a421a4bee25e65e6c
             </a></li>
     
             <div>
@@ -27,37 +24,68 @@
                     <li><a href = "../Frontend/proteinAndFitness.html">Protein & Fitness</a></li>
                     <li><a href = "../Frontend/digestionAndGut.html">Digestion & Gut Health</a></li>
                     <li><a href = "../Frontend/foodAndDrinks.html">Food & Drinks</a></li>
-<<<<<<< HEAD
-                    <li><a href = "../Frontend/viewCart.html"> <img src = "../Image/cart.png" height = "50" wdith = "50"> </a></li>
-=======
                     <li><a href = "../Frontend/viewCart.html"> <img src = "../Image/cart.png" height = "25" wdith = "25"> </a></li>
                     <li><a href = "../Frontend/signIn.html"> <img src = "../Image/profile.png" height = "25" wdith = "25"> </a></li>
->>>>>>> 938f2d53fef4db0389261a2a421a4bee25e65e6c
                 </ul>
             </div>
         </section>
 
-        <section id = "trending-title" class = "section-m1">
-            <h2>PRIVACY POLICY</h2>
-        </section>
-
         <!--ENTER BODY AND INFORMATION-->
-        <section id = "privacy-policy" class = "section-p1">
-            <div class = "privacy-policy-box">
-                <p><b>What Information We Collect:</b></p>
-                <p>We collect information from and about you when you make a purchase, obtain a subscription, complete a survey or participate in a promotion, attend or participate in a program, register through the SVS, upload content to a website or app, participate in a community, or provide your e-mail address. We may also collect other pieces of your information, such as tracking and usage information about your location, demographics, and general use of the SVS.</p>
-                <p><b>Tips For Surfing Our Website</b></p>
-                <p>As this is a website to showcase our project, please do not use any personal information such as personal emails or passwords when testing website utilities.</p>
+        <div class = "sign-in-container">
+            <div class="form-box">
+                <h4 id = "title">Sign Up</h4>
+                <form>
+                    <div class = "input-group">
+                        <div class = "input-field" id = "nameField">
+                            <i class="fa-solid fa-user"></i>
+                            <input type="text" placeholder="Name">
+                        </div>
+
+                        <div class = "input-field">
+                            <i class="fa-solid fa-envelope"></i>
+                            <input type="email" placeholder="Email">
+                        </div>
+
+                        <div class = "input-field">
+                            <i class="fa-solid fa-lock"></i>
+                            <input type="password" placeholder="Password">
+                        </div>
+
+                    </div>
+
+                    <div class="btn-field">
+                        <button type = "button" id = "signupBtn">Sign Up</button>
+                        <button type = "button" id = "signinBtn" class = "disable">Sign In</button>
+                    </div>
+
+                </form>
             </div>
-        </section>
+        </div>
+
+        <script>
+            let signupBtn = document.getElementById("signupBtn");
+            let signinBtn = document.getElementById("signinBtn");
+            let nameField = document.getElementById("nameField");
+            let title = document.getElementById("title");
+
+            signinBtn.onclick = function(){
+                nameField.style.maxHeight = "0";
+                title.innerHTML = "Sign In";
+                signupBtn.classList.add("disable");
+                signinBtn.classList.remove("disable");
+            }
+
+            signupBtn.onclick = function(){
+                nameField.style.maxHeight = "60px";
+                title.innerHTML = "Sign Up";
+                signupBtn.classList.remove("disable");
+                signinBtn.classList.add("disable");
+            }
+        </script>
 
         <footer class = "section-p1">
             <div class = "col">
-<<<<<<< HEAD
-                <img src = "../CMPE131-group-main/Image/test.jpg" class = "test" alt = "" height = "100" width = "100">
-=======
                 <img src = "../Image/test.png" class = "test" alt = "" height = "150" width = "150">
->>>>>>> 938f2d53fef4db0389261a2a421a4bee25e65e6c
                 <h4>Contact</h4>
                 <p><strong>Address:</strong>1 Washington Sq, San Jose, CA 95192</p>
                 <p><strong>Phone:</strong>(408) 924-1000</p>
@@ -65,11 +93,7 @@
             </div>
     
             <div class = "col">
-<<<<<<< HEAD
-                <h4>About Us</h4>
-=======
                 <h4>Get Help</h4>
->>>>>>> 938f2d53fef4db0389261a2a421a4bee25e65e6c
                 <a href = "../Frontend/aboutUs.html">About Us</a>
                 <a href = "../Frontend/deliveryInformation.html">Delivery Information</a>
                 <a href = "../Frontend/privacyPolicy.html">Privacy Policy</a>
