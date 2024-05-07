@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+        <title>Superior Vitamin Shop</title>
+        <link rel = "stylesheet" href = "../style.css">
+        
+    </head>
+    
+    <body>
+        <section id = "header">
+            <li><a href = "../index.html">
+                <img src = "../Image/logo.png" class = "test" alt = "" height = "75" width = "75">
+            </a></li>
+    
+            <div>
+                <ul id = "navbar">
+                    <li><a href = "../index.html">Home</a></li>
+                    <li><a href = "../Frontend/vitaminsAndSupplements.html">Vitamins & Supplements</a></li>
+                    <li><a href = "../Frontend/proteinAndFitness.html">Protein & Fitness</a></li>
+                    <li><a href = "../Frontend/digestionAndGut.html">Digestion & Gut Health</a></li>
+                    <li><a href = "../Frontend/foodAndDrinks.html">Food & Drinks</a></li>
+                    <li><a href = "../Frontend/viewCart.html"> <img src = "../Image/cart.png" height = "25" wdith = "25"> </a></li>
+                    <li><a href = "../Backend/signIn.html"> <img src = "../Image/profile.png" height = "25" wdith = "25"> </a></li>
+                </ul>
+            </div>
+        </section>
+
+        <!--ENTER BODY AND INFORMATION-->
+        <div class="game-container" class = "section-p1">
+            <div class="form-box">
+                <h4 id = "personalizedTitle">Personalized Vitamin Quiz</h4>
+                <form id = "quiz-form">                    
+                    <div class = "question" id = "weightField"> 
+                        <label for = "weight">Weight (in lbs):</label>
+                        <input type = "number" id = "weight" name = "weight" required>
+                    </div>
+    
+                    <div class = "question" id = "heightField">
+                        <label for = "height">Height (in cms):</label>
+                        <input type = "number" id = "height" name = "height" required>
+                    </div>
+    
+                    <div class = "question" id = "weightGoalsField">
+                        <label for = "goals">Weight Goals:</label>
+                        <select id = "goals" name = "goals" required>
+                            <option value="">Select One</option>
+                            <option value="weight_loss">Weight Loss</option>
+                            <option value="weight_gain">Weight Gain</option>
+                            <option value="weight_maintain">Weight Maintain</option>
+                        </select>
+                        </label>
+                    </div>
+    
+                    <div class = "question" id = "activityLevelField">
+                        <label for = "activityLevel">How Active Are You?</label>
+                        <select id = "activityLevel" name = "activityLevel" required>
+                            <option value ="">Select One</option>
+                            <option value = "one_to_two_days">1 - 2 Days</option>
+                            <option value = "two_to_three_days">2 - 3 Days</option>
+                            <option value = "three_to_five_days">3 - 5 Days</option>
+                            <option value = "five_to_seven_days">5 - 7 Days</option>
+                        </select>
+                    </div>
+    
+                    <button class = "white" id = "getRecommendation">Get Recommendations</button>
+    
+                </form>
+    
+                <div id = "results"></div>
+            </div>
+        </div>
+
+        <script>
+            let getRecommendation = document.getElementById('getRecommendation');
+            let weightGoalsField = document.getElementById('weightGoalsField');
+            let heightField = document.getElementById('heightField');
+            let weightField = document.getElementById('weightField');
+            let personalizedTitle = document.getElementById('personalizedTitle');
+            let activityLevelField = document.getElementById('activityLevelField');
+        
+            getRecommendation.onclick = function() {
+                weightGoalsField.style.display = 'none';
+                heightField.style.display = 'none';
+                weightField.style.display = 'none';
+                personalizedTitle.style.display = 'none';
+                activityLevelField.style.display = 'none';
+                getRecommendation.style.display = 'none';
+                
+            };
+        </script>
+
+        <footer class = "section-p1">
+            <div class = "col">
+                <img src = "../Image/test.png" class = "test" alt = "" height = "150" width = "150">
+                <h4>Contact</h4>
+                <p><strong>Address:</strong>1 Washington Sq, San Jose, CA 95192</p>
+                <p><strong>Phone:</strong>(408) 924-1000</p>
+                <p><strong>Hours:</strong> 6:00 AM - 12:00 AM</p>
+            </div>
+    
+            <div class = "col">
+                <h4>Get Help</h4>
+                <a href = "../Frontend/aboutUs.html">About Us</a>
+                <a href = "../Frontend/deliveryInformation.html">Delivery Information</a>
+                <a href = "../Frontend/privacyPolicy.html">Privacy Policy</a>
+                <a href = "../Frontend/tnc.html">Terms and Conditions</a>
+                <a href = "../Frontend/contactUs.html">Contact Us</a>
+            </div>
+    
+            <div class = "col">
+                <h4>My Account</h4>
+                <a href = "../Backend/signIn.html">Sign In</a>
+                <a href = "../Frontend/viewCart.html">View Cart</a>
+                <a href = "../Frontend/help.html">Help</a>
+            </div>
+    
+            <div class = "copyright">
+                <p>2024, Superior Vitamin Shop</p>
+            </div>
+         </footer>
+    
+<script src = "../game.js"></script>
+
+    </body>
+
+</html>

@@ -1,0 +1,620 @@
+@import url('https://fonts.googleapis.com/css?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sparta', sans-serif
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 64px;
+    color: black;
+}
+
+h2 {
+    font-size: 46px;
+    line-height: 54px;
+    color: black;
+}
+
+h4 {
+    font-size: 20px;
+    color: black;
+}
+
+h6 {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+price {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+    color:black;
+    margin: 15px 0 2px 0;
+}
+
+.section-p1 {
+    padding: 40px 80px;
+}
+
+.section-m1 {
+    margin: 40px 0px;
+}
+
+button.normal{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: black;
+    background-color: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+
+button.white{
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 18px;
+    color: black;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid black;
+    outline: none;
+    transition: 0.2s;
+}
+
+button.cokewhite{
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 18px;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid white;
+    outline: none;
+    transition: 0.2s;
+}
+
+/* Header Start */
+/* HEADER START */
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 87px;
+    background: whitesmoke;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    list-style: none;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+
+}
+
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color:black;
+    transition: 0.3s ease;
+}
+
+#navbar li a:hover{
+    color:deeppink;
+}
+
+/* Home Page Start */
+/* HOME PAGE STATE */
+#hero{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: white;
+}
+
+#hero .hero-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url("Image/Vitamin_Hero.png ");
+    width: 650px;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
+
+#hero .hero-box2{
+    background-image: url("Image/AlaniNu_Hero.jpg");
+}
+
+#trending{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#trending-title{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#trending .trending-box{
+    width: 180px;
+    text-align: center;
+    padding: 20px 10px;
+    cursor: pointer;
+    transition: 0.02s;
+}
+
+#trending .trending-box:hover{
+    box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1)
+}
+
+#trending .trending-box h6{
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+}
+
+#sale{
+    text-align: center;
+    
+}
+
+#sale .sale-box{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+
+}
+
+#sale .sale-container{
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    cursor: pointer;
+    transition: 0.02s;
+}
+
+#sale .container:hover{
+    box-shadow: 20px 20px  30px rgba(0, 0, 0, 0.06)
+}
+
+#info{
+    text-align: center;
+}
+
+#banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-image: url("Image/banner.JPG");
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#newsletter{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url(Image/newsletter.JPG);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 25vh; 
+}
+
+#newsletter h4{
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+}
+
+#newsletter p{
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+}
+
+#newsletter p span{
+    color: #ffbd27;
+}
+
+#newsletter .form{
+    color: rgba(62, 116, 73, 0.8);
+}
+
+#newsletter .newsletter-form{
+    background-color: white;
+    display: flex;
+    width: 40%;
+}
+
+#newsletter input{
+    height: 3.125rem;
+    padding: 0 1.25em;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+}
+
+#newsletter button{
+    background-color:rgba(62, 116, 73, 0.8);
+    color: white;
+    white-space: nowrap;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+footer .test{
+    margin-bottom: 30px;
+}
+
+footer h4{
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+footer p{
+    font-size: 12px;
+    margin: 0 0 8px 0;
+}
+
+footer a{
+    font-size: 13px;
+    text-decoration: none;
+    color: #222;
+    margin-bottom: 10px;;
+}
+
+footer .copyright{
+    width: 100%;
+    text-align: center;
+}
+
+/* About Us Page */
+/* ABOUT US PAGE */
+
+#about-us{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* Delivery Information Page */
+
+/* Privacy Policy page */
+
+/* Terms and Conditions Page */
+
+/* Contact Us Page */
+
+/* Help Page */
+
+/* View Cart Page */
+
+/* Sign In Page */
+
+/* Products Page */
+
+/* QUIZ PAGE */
+.quiz-container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../CMPE131-group-main/Image/quiz.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+
+.quiz-box{
+    width: 90%;
+    max-width: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 40px 40px 70px;
+    text-align: center;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center{
+    justify-content: center;
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.hidden{
+    display: none;
+}
+
+.btn{
+    background: rgba(62, 116, 73, 0.8);
+    color: #fff;
+    height: 60px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background 1s;
+
+}
+
+.btn:hover{
+    cursor: pointer;
+    box-shadow: 20px 20px  30px rgba(0, 0, 0, 0.06);
+
+}
+
+/* GAME PAGE */
+.game-container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../CMPE131-group-main/Image/quiz.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+
+.question{
+    margin-bottom: 20px;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type = "number"],
+select {
+    width: 150px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* PRODUCTS PAGE */
+
+#products{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0px 125px;
+}
+
+#products .products-box{
+    width: 26%;
+    min-width: 250px;
+    text-align: left;
+    padding: 20px 10px;
+    cursor: pointer;
+    transition: 0.02s;
+    
+}
+
+#products .single-products-box{
+    width: 26%;
+    min-width: 250px;
+    text-align: center;
+    padding: 20px 20px;
+    cursor: pointer;
+    transition: 0.02s;
+
+}
+
+#products .products-box:hover{
+    box-shadow: 5px 5px 40px rgba(70, 62, 221, 0.1)
+}
+
+#products .products-box h6{
+    padding: 9px 9px 9px 9px;
+    line-height: 1;
+    border-radius: 4px;
+}
+
+#products-banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-image: url("Image/banner.JPG");
+    width: 100%;
+    height: 10vh;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Single Products Page */
+/* SINGLE PRODUCTS PAGE */
+.container {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    max-width: 75%;
+    margin: auto;
+    height: 80vh;
+    margin-top: 5%;
+    background: white;
+}
+
+.left, .right{
+    width: 50%;
+    padding: 30px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex1{
+    display: flex;
+
+}
+
+.main_image{
+    width: 500px;
+    height: 500px;
+}
+
+.option img{
+    width: 75px;
+    height: 75px;
+    padding: 10px;
+}
+
+.right {
+    padding: 50px 100px 50px 50px;
+}
+
+/* SIGN IN / SIGN UP */
+
+.sign-in-container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../CMPE131-group-main/Image/signIn.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+
+.form-box{
+    width: 90%;
+    max-width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 50px 60px 70px;
+    text-align: center;
+}
+
+.form-box h4{
+    font-size: 30px;
+    margin-bottom: 60px;
+    position: relative;
+
+}
+
+.input-field{
+    background: #eaeaea;
+    margin: 15px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    max-height: 65px;
+    transition: max-height 0.5s;
+    overflow: hidden;
+}
+
+input{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 18px 15px;
+}
+
+.input-field i{
+    margin-left: 15px;
+    color: #999;
+}
+
+form p{
+    text-align: left;
+    font-size: 13px;
+
+}
+
+form p a{
+    text-decoration: none;
+    color: rgba(62, 116, 73, 0.8);;
+}
+
+.btn-field{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.btn-field button{
+    flex-basis: 48%;
+    background: rgba(62, 116, 73, 0.8);
+    color: #fff;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 1s;
+
+}
+
+.input-group{
+    height: 280px;
+
+}
+
+.btn-field button.disable{
+    background: #eaeaea;
+    color: #555;
+}

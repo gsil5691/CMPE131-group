@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+        <title>Superior Vitamin Shop</title>
+        <link rel = "stylesheet" href = "../style.css">
+    </head>
+    
+    <body>
+        <section id = "header">
+            <li><a href = "../index.html">
+                <img src = "../Image/logo.png" class = "test" alt = "" height = "75" width = "75">
+            </a></li>
+    
+            <div>
+                <ul id = "navbar">
+                    <li><a href = "../index.html">Home</a></li>
+                    <li><a href = "../Frontend/vitaminsAndSupplements.html">Vitamins & Supplements</a></li>
+                    <li><a href = "../Frontend/proteinAndFitness.html">Protein & Fitness</a></li>
+                    <li><a href = "../Frontend/digestionAndGut.html">Digestion & Gut Health</a></li>
+                    <li><a href = "../Frontend/foodAndDrinks.html">Food & Drinks</a></li>
+                    <li><a href = "../Frontend/viewCart.html"> <img src = "../Image/cart.png" height = "25" wdith = "25"> </a></li>
+                    <li><a href = "../Frontend/signIn.html"> <img src = "../Image/profile.png" height = "25" wdith = "25"> </a></li>
+                </ul>
+            </div>
+        </section>
+
+        <!--BANNER-->
+        <section id = "products-banner" class = "section-m1">
+            <p>Free Shipping for Orders Over 1000$</p>
+        </section>
+
+        <!--ENTER BODY AND INFORMATION-->
+        <section>
+            <div class = "container flex">
+                <div class = "left">
+                    <div class = "main_image">
+                        <img src = "../Image/Barebells_Protein_Bar_Cookies_&_Cream_Front.jpg" alt = " " class = "slide" height = 500px width = 500px>
+                    </div>
+                    <div class = "option flex">
+                        <img src = "../Image/Barebells_Protein_Bar_Cookies_&_Cream_Front.jpg" onclick="img('../Image/Barebells_Protein_Bar_Cookies_&_Cream_Front.jpg')">
+                        <img src = "../Image/Barebells_Protein_Bar_Cookies_&_Cream_case_Front1.jpg" onclick="img('../Image/Barebells_Protein_Bar_Cookies_&_Cream_case_Front1.jpg')">
+                        <img src = "../Image/Barebells Protein Bar Cookies & Cream _bar2.jpg" onclick="img('../Image/Barebells Protein Bar Cookies & Cream _bar2.jpg')">
+                        <img src = "../Image/Barebells Protein Bar Cookies & Cream _bar3.jpg" onclick="img('../Image/Barebells Protein Bar Cookies & Cream _bar3.jpg')">
+                        <img src = "../Image/Barebells_NutritionalFacts.png" onclick="img('../Image/Barebells_NutritionalFacts.png')">
+                    </div>
+                </div>
+
+                <div class = "right">
+                <h4>Barebells - Cookies & Cream</h4>
+                <h4>$29.99</h4> <p>($2.50 / serving)</p>
+                <p>BAREBELLS - PROTEIN BAR - COOKIES & CREAM - 12 BARS </p>
+                <p>Artificial and Natural Flavoring</p>
+                <p>20 grams of Protein</p>   
+                <p>No added Sugar</p>  
+                
+                    <button class = "white">Add to Cart</button>
+                </div>
+                
+            </div>
+        </section>
+
+        <script>
+            function img(anything){
+                document.querySelector('.slide').src = anything;
+            }
+            function change(change){
+                const line = document.querySelector('.home');
+                line.style.background = change;
+            }
+        </script>
+
+        <footer class = "section-p1">
+            <div class = "col">
+                <img src = "../Image/test.png" class = "test" alt = "" height = "150" width = "150">
+                <h4>Contact</h4>
+                <p><strong>Address:</strong>1 Washington Sq, San Jose, CA 95192</p>
+                <p><strong>Phone:</strong>(408) 924-1000</p>
+                <p><strong>Hours:</strong> 6:00 AM - 12:00 AM</p>
+            </div>
+    
+            <div class = "col">
+                <h4>Get Help</h4>
+                <a href = "../Frontend/aboutUs.html">About Us</a>
+                <a href = "../Frontend/deliveryInformation.html">Delivery Information</a>
+                <a href = "../Frontend/privacyPolicy.html">Privacy Policy</a>
+                <a href = "../Frontend/tnc.html">Terms and Conditions</a>
+                <a href = "../Frontend/contactUs.html">Contact Us</a>
+            </div>
+    
+            <div class = "col">
+                <h4>My Account</h4>
+                <a href = "../Frontend/signIn.html">Sign In</a>
+                <a href = "../Frontend/viewCart.html">View Cart</a>
+                <a href = "../Frontend/help.html">Help</a>
+            </div>
+    
+            <div class = "copyright">
+                <p>2024, Superior Vitamin Shop</p>
+            </div>
+         </footer>
+    
+    </body>
+
+</html>

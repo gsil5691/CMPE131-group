@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Login - HTML & CSS</title>
+    <link rel="../Backend/preconnect" href="https://fonts.gstatic.com">
+    <link rel="../Backend/stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="../Backend/https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+    <!--Stylesheet-->
+    <link href="../Backend/backendSTYLES.CSS" rel="stylesheet">
+    <script type="module" defer src="login.js"></script>
+
+    <!--scripts-->
+
+    <!--fevicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="../Backend/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../Backend/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../Backend/favicon-16x16.png">
+    <link rel="icon" type="image/x-icon" href="../Backend/favicon.ico">
+    <link rel="manifest" href="../Backend/site.webmanifest">
+</head>
+
+<body>
+
+        <!--Contains Header Logo, Navbar, and Shopping Cart-->
+        <section id = "header">
+            <a href = "#">
+                <img src = "../Image/logo.png" class = "test" alt = "" height = "75" width = "75">
+            </a>
+    
+            <div>
+                <ul id = "navbar">
+                    <li><a href = "../index.html">Home</a></li>
+                    <li><a href = "../Frontend/vitaminsAndSupplements.html">Vitamins & Supplements</a></li>
+                    <li><a href = "../Frontend/proteinAndFitness.html">Protein & Fitness</a></li>
+                    <li><a href = "../Frontend/digestionAndGut.html">Digestion & Gut Health</a></li>
+                    <li><a href = "../Frontend/foodAndDrinks.html">Food & Drinks</a></li>
+                    <li><a href = "../Frontend/viewCart.html"> <img src = "../Image/cart.png" height = "25" wdith = "25"> </a></li>
+                    <li><a href = "../Backend/signIn.html"> <img src = "../Image/profile.png" height = "25" wdith = "25"> </a></li>
+                    
+                </ul>
+            </div>
+        </section>
+
+        <section id = "signIn">
+            <div class="background">
+                <div class="shape"></div>
+                <div class="shape"></div>
+            </div>
+        
+            <form>
+                <h3>Superior Vitamin Shop</h3>
+        
+                <label for="username">User</label>
+                <input type="email" placeholder="Email or Phone" id="email" required>
+        
+                <label for="password">Password</label>
+                <input type="password" placeholder="Password" id="password" required>
+        
+                <button id="submit">Log In</button>       
+        
+                <div class="form">
+                    <p>Don't have an account?
+                        <span> <a href="../Backend/register.html">Create Account</a></span>
+                    </p>
+                </div>
+        
+            </form>
+        
+        </section>
+</body>
+
+</html>
