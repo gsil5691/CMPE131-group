@@ -126,7 +126,7 @@ button.cokewhite{
 /* HOME PAGE STATE */
 #hero{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     color: white;
 }
@@ -137,7 +137,7 @@ button.cokewhite{
     justify-content: center;
     align-items: flex-start;
     background-image: url("Image/Vitamin_Hero.png ");
-    width: 650px;
+    width: 600px;
     height: 50vh;
     background-size: cover;
     background-position: center;

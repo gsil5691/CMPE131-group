@@ -16,35 +16,35 @@ html, body {
 /* Body background and font setup */
 body {
   display: flex;
-  flex-direction: column; /* Stack content and footer vertically */
-  min-height: 100vh; /* Full viewport height */
-  font-family: 'Poppins', sans-serif; /* Ensuring consistent font usage */
-  background-image: url('bg.jpg'); /* Background image */
-  background-size: cover; /* Cover the entire viewport */
+  flex-direction: column; 
+  min-height: 100vh; 
+  font-family: 'Poppins', sans-serif; 
+  background-image: url('https://i.pinimg.com/originals/40/3b/57/403b57cc8365c9ded86faed82638f53f.jpg'); /* Background image */
+  background-size: cover; 
 }
 
 /* Main content styling */
 .content {
-  flex: 1; /* Takes all available space */
-  padding-bottom: 100px; /* Add padding at the bottom to avoid overlap with footer */
+  flex: 1; 
+  padding-bottom: 100px; 
 }
 
 
 .background {
   width: 430px;
-  height: auto; /* Change from a fixed height to auto to accommodate content */
-  padding: 20px; /* Ensure there's padding around the form */
-  position: relative; /* If it was absolute, change to relative for natural flow */
-  z-index: 1001; /* Ensure it's above other content, assuming footer's z-index < 1001 */
+  height: auto; 
+  padding: 20px; 
+  position: relative; 
+  z-index: 1001; 
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-bottom: 50px; /* Add margin to bottom to ensure it doesn't get hidden by footer */
+  margin-bottom: 50px; 
 }
 
 form {
-  height: 400px; /* Confirm this is enough to fit all elements */
+  height: 400px; 
   width: 400px;
   background-color: rgba(10, 4, 68, 0.13);
   position: absolute;
@@ -58,8 +58,8 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around; /* Adjusted for even spacing between elements */
-  padding: 20px 35px; /* Adjusted lateral padding */
+  justify-content: space-around; 
+  padding: 20px 35px; 
 }
 
 
@@ -72,7 +72,7 @@ form * {
 }
 
 form h3 {
- margin-bottom: 30px; /* Adjust as necessary to position the title */
+ margin-bottom: 30px; 
  font-size: 50px;
  font-weight: 600;
  line-height: 20px;
@@ -82,7 +82,7 @@ form h3 {
 label {
  display: block;
  margin-top: 30px;
- margin-right: auto; /* Add this line to move the labels to the left */
+ margin-right: auto; 
  font-size: 16px;
  font-weight: 500;
 }
@@ -100,9 +100,9 @@ input {
 }
 
 input[type="email"], input[type="password"] {
-  width: 92%; /* Full width for better alignment */
-  padding: 15px 15px; /* Padding adjusted for better text alignment */
-  margin: 0 0; /* Smaller, even top and bottom margins */
+  width: 92%; 
+  padding: 15px 15px; 
+  margin: 0 0; 
 }
 
 ::placeholder {
@@ -110,11 +110,11 @@ input[type="email"], input[type="password"] {
 }
 
 button {
-  width: 100%; /* Ensures button width matches input fields */
-  padding: 12px 0; /* Padding adjusted for better proportion */
-  margin-top: 30px; /* Defined space above the button */
- background-color: #ffffff;
- color: #3c3c3c;
+  width: 100%; 
+  padding: 12px 0; 
+  margin-top: 30px; 
+ background-color: rgba(255, 255, 255, 0.8);
+ color: #545454;
  font-size: 18px;
  font-weight: 600;
  border-radius: 5px;
@@ -131,8 +131,6 @@ button:active{
 }
 
 /* Header Start */
-/* HEADER START */
-
 #header {
   position: fixed;
   top: 0;
@@ -141,7 +139,7 @@ button:active{
   color: #333;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
   display: flex;
-  align-items: center; /* Align items vertically */
+  align-items: center; 
   justify-content: space-evenly;
   padding: 20px 30px;
   z-index: 1000;
@@ -155,12 +153,12 @@ button:active{
 }
 
 #navbar li {
-  display: inline-block; /* Display items in a row */
-  margin-right: 20px; /* Adjust margin as needed */
+  display: inline-block; 
+  margin-right: 20px; 
 }
 
 #navbar li:last-child {
-  margin-right: 10px; /* Remove margin from the last item */
+  margin-right: 10px; 
 }
 
 
@@ -186,35 +184,35 @@ button:active{
 /* Footer */
 #footer {
   width: 100%;
-  background: #ffffff; /* White background for visibility */
-  color: #333; /* Dark text for readability */
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  background: #ffffff;
+  color: #333; 
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); 
   display: flex;
-  justify-content: space-evenly; /* Space out footer columns */
-  align-items: center; /* Vertically center the content */
-  padding: 2px 100px; /* Adjust padding as needed */
+  justify-content: space-evenly; 
+  align-items: center; 
+  padding: 2px 100px; 
   position: fixed;
   bottom: 0;
   left: 0;
-  z-index: 1000; /* Ensure footer is on top of content */
+  z-index: 1000; 
 }
 
 /* Footer columns */
 #footer .col {
-  flex: 1; /* Each column takes equal space */
-  padding: 1px 2px; /* Sufficient padding for spacing within columns */
+  flex: 1; 
+  padding: 1px 2px; 
   display: flex;
   flex-direction: column;
-  align-items: flex-start; /* Align items to the start of the column */
+  align-items: flex-start; 
 }
 
 /* Smaller text elements in footer */
 #footer h4, #footer p, #footer a {
-  font-size: 8px; /* Adjust font size as needed */
+  font-size: 8px; 
   font-weight: 600;
-  line-height: 1.5; /* Adequate line height for readability */
-  margin-bottom: 5px; /* Adjust margin as needed */
-  text-decoration: none; /* Remove underline from links */
+  line-height: 1.5;
+  margin-bottom: 5px; 
+  text-decoration: none; 
 }
 
 #footer a:hover {
